@@ -1,0 +1,52 @@
+/* Custom Gradient for Navbar */
+.bg-gradient-custom {
+  background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background 0.5s ease;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+/* Button Styles */
+.btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #333;
+  transform: scale(1.05);
+}
+
+/* Navbar Logo */
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Add some extra margin for mobile navigation */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+}
