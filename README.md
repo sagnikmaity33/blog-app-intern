@@ -32,7 +32,7 @@ This is a full-stack **blogging platform** built using the **MERN stack** — Mo
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yashrathod2002/blog-web-app.git
+   git clone https://github.com/sagnikmaity33/blog-app-intern.git
    cd blog-web-app
    ```
 
@@ -59,18 +59,18 @@ This is a full-stack **blogging platform** built using the **MERN stack** — Mo
 4. **Run the application:**
    ```bash
    # Backend
-   npm start
+   node index.js
 
    # Frontend (in another terminal)
-   npm start
+   npm run dev
    ```
 
 5. Open `http://localhost:3000` in your browser ✨
 
 ## 👨‍💻 Author
 
-- [Yash Rathod](https://github.com/yashrathod2002)
-- Diploma in Advanced Computing (CDAC)
+- [Sagnik Maity](https://github.com/sagnikmaity33)
+
 
 ## 📌 License
 
